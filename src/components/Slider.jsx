@@ -34,7 +34,6 @@ const Arrow = styled.div`
 
 const Wrapper = styled.div`
     height: 100%;
-    padding: 10px 0px;
     display: flex;
     transition: all 1.5s ease;
     transform: translateX(${props=>props.slideIndex * -100}vw)
